@@ -1,0 +1,123 @@
+/*
+#############################
+#2 #colorful #palette is:
+#############################
+
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+*/
+
+/*
+#############################
+GLOBAL STYLES
+#############################
+*/
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        a, button {
+            text-transform: uppercase;
+            color: black;
+        }
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+        }
+
+/*
+#############################
+APP BAR STYLES
+#############################
+*/
+#app-bar {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+div img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/*
+#############################
+CHANNEL LIST STYLES
+#############################
+*/
+#channel-list ul{
+    list-style-type: none;
+    background-color: #3F51B5;
+}
+div .icons {
+    height: 20px;
+    width: 20px;
+}
+
+div .icons2 {
+    height: 20px;
+    width: 25px;
+}
+
+li {
+    margin: 1px 1px 1px 3px;
+    padding: 5px;
+    background-color: white;
+}
+
+/*
+#############################
+CHANNEL BUTTON STYLES
+#############################
+*/
+
+#channel-button button {
+    background-color: initial;
+    width: 30%;
+    margin-bottom: 3px;
+    border: 1px none initial;
+}
+/*
+#############################
+TAB BAR STYLES
+#############################
+*/
+#tab-bar .icons2 {
+    height: 30px;
+    width: 35px;
+    margin: 1px;
+}
+
+/*
+#############################
+MESSAGES STYLES
+#############################
+*/
+.chat-message {
+    padding: 5px 5px 5px 30px;
+}
+
+.chat-message p {
+    padding: 10px;
+}
